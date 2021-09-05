@@ -1,0 +1,13 @@
+.Addbtn__style {
+  padding: 5px 15px;
+  width: 130px;
+  border-radius: 20px;
+  background-color: rgb(49, 219, 27);
+  color: black;
+
+  transition: background-color 250ms ease, transform 250ms ease;
+}
+.Addbtn__style:hover {
+  background-color: rgb(49, 219, 27);
+  transform: scale(1.1);
+}

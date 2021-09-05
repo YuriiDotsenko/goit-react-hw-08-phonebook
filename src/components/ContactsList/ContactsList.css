@@ -1,0 +1,39 @@
+.List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Text {
+  margin: 0;
+}
+
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Contact:not(:last-child) {
+  margin-bottom: 10px;
+}
+.Name {
+  font-weight: bold;
+}
+.Phone {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.61);
+}
+.Remove__btn {
+  padding: 5px 15px;
+  width: 160px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: rgb(49, 219, 27);
+  color: black;
+
+  transition: background-color 250ms ease, transform 250ms ease;
+}
+.Remove__btn:hover {
+  background-color: rgb(49, 219, 27);
+  transform: scale(1.1);
+}
